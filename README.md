@@ -18,9 +18,9 @@ To use the CSS file, simply include it in your HTML document using the <link> ta
 The CSS file contains several variables that can be customized to achieve different gradient colors and angles. The variables are located at the top of the CSS file and include:
 
   
---primary: The starting color of the gradient.
---secondary: The ending color of the gradient.
---third: The middle color of the gradient.
+##### --primary: The starting color of the gradient.
+##### --secondary: The ending color of the gradient.
+##### --third: The middle color of the gradient.
   
   
 To customize these variables, simply change the value to the desired color or angle.
