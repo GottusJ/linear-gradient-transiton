@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+:root {
+  --bg-color: rgb(20, 20, 20);
+  --primary: #ef566a;
+  --secondary: #9f60d2;
+  --third: #627af7;
+}
+
+@keyframes background-pan {
+  from {
+    background-position: 0% center;
+  }
+  to {
+    background-position: -200% center;
+  }
+}
+
+body {
+  background-color: var(--bg-color);
+  display: grid;
+  height: 100vh;
+  margin: 0px;
+  overflow: hidden;
+  place-items: center;
+}
+
+h1 {
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-size: clamp(2rem, 2vw, 4em);
+  font-weight: 400;
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 > .linear-gradient {
+  animation: background-pan 1.5s linear infinite;
+  background: linear-gradient(
+    to right,
+    var(--primary),
+    var(--secondary),
+    var(--third),
+    var(--third),
+    var(--secondary),
+    var(--primary)
+  );
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+}
