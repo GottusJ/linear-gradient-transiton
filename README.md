@@ -23,7 +23,7 @@ The CSS file contains several variables that can be customized to achieve differ
 ##### --third: The middle color of the gradient.
   
   
-To customize these variables, simply change the value to the desired color or angle.
+To customize these variables, simply change the value to the desired color gradient. 
   
   
 ## Contributions
